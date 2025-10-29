@@ -2,7 +2,7 @@ import dotenv from 'dotenv';
 import express from 'express';
 import mongoose from 'mongoose';
 import cors from 'cors';
-import movieRoutes from './src/routers/movieRoutes';
+import movieRoutes from './routers/movieRoutes';
 
 dotenv.config();
 
